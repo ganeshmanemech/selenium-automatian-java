@@ -40,7 +40,7 @@ public class LoginPage {
 		username.sendKeys(user);
 		password.sendKeys(pass);
 		submit.click();
-		return this.isPageLoaded();
+		return this;
 	}
 	
 	public void loginWorning(String erromsg) {
