@@ -14,7 +14,7 @@ public class LoginPage {
 	private WebElement username;
 	
 	@FindBy(id="txtPassword")
-	private WebElement password;
+	private WebElement passwod;
 	
 	@FindBy(id="btnLogin")
 	private WebElement submit;
@@ -31,14 +31,14 @@ public class LoginPage {
 	
 	public HomePage loginMethod(String user,String pass) {
 		username.sendKeys(user);
-		password.sendKeys(pass);
+		passwod.sendKeys(pass);
 		submit.click();
 		return new HomePage().ispageLoded();
 	}
 	
 	public LoginPage loginFailedMethod(String user,String pass) {
 		username.sendKeys(user);
-		password.sendKeys(pass);
+		passwod.sendKeys(pass);
 		submit.click();
 		return this;
 	}
