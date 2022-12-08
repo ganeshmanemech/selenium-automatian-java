@@ -11,7 +11,9 @@ public class IInvoked implements IInvokedMethodListener {
 
 	@Override
 	public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
-		DriveFactory.localchrome.get().quit();
+		DriveFactory.localchrome
+.get()
+.quit();
 
 	}
 
