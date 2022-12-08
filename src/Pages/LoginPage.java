@@ -8,8 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import common.DriveFactory;
-@FindBy(xpath="//input[@id='txtUsername']")
-	private WebElement username;
+
 public class LoginPage {
 	@FindBy(xpath="//input[@id='txtUsername']")
 	private WebElement username;

@@ -12,8 +12,7 @@ public class LoginTest {
 	public void VerifyLoginSuccesfullwithValidUsernamePassword() {
 		LoginPage lp=new LoginPage();
 		lp.loginMethod("Admin", "admin123")
-		.display();
-mane 	
+		.display();	
 		
 			
 	}
