@@ -1,7 +1,7 @@
 package common;
 
 import org.testng.annotations.DataProvider;
-
+data add
 public class WebBase {
 	@DataProvider(name="Data Login")
 	public String [][] getloginData(){
